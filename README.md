@@ -1,17 +1,43 @@
-
 # react-reacting
+A simple and modern **React + Vite** web application that displays navigation pages (Home, Tasks, and API Data).  
+The app includes **dark/light mode toggle**, responsive design with **Tailwind CSS**, and dynamic content fetched from a **public API**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  **Vite** for fast development and builds  
+- 🎨 **Tailwind CSS** for modern, responsive UI  
+- 🌗 **Dark / Light Theme Toggle**  
+- 🔄 **Fetch API Data** (real English posts from [DummyJSON API](https://dummyjson.com/posts))  
+-  **React Router** navigation (Home, Tasks, API Data)  
+-  Organized and reusable component structure  
 
-## React Compiler
+##  API Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The app fetches post data from:
 
-## Expanding the ESLint configuration
+https://dummyjson.com/posts
+This returns realistic English text posts for frontend development and testing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Installation
+Clone this repository:
+https://github.com/mkmattymatty/react-reacting.git
+
+Go to the project directory:
+cd my-react-app
+
+Install dependencies:
+npm install
+
+Run development server:
+npm run dev
+
+Build for production:
+npm run build
+👨‍💻 Author
+
+Mathias Mwaro
+Full-Stack Web Development Scholar (MERN Stack) – Power Learn Project (PLP)
+
+🪪 License
+This project is open source and available
